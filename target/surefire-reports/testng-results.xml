@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-07T14:54:11 MST" name="Suite" finished-at="2021-05-07T14:54:35 MST" duration-ms="24440">
+    <groups>
+    </groups>
+    <test started-at="2021-05-07T14:54:11 MST" name="Win10-FF-Test" finished-at="2021-05-07T14:54:29 MST" duration-ms="17935">
+      <class name="testcases.TestOnSauceLabs">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestOnSauceLabs@65b3f4a4]" started-at="2021-05-07T14:54:11 MST" name="setUp" finished-at="2021-05-07T14:54:27 MST" duration-ms="16357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTitle()[pri:0, instance:testcases.TestOnSauceLabs@65b3f4a4]" started-at="2021-05-07T14:54:27 MST" name="testTitle" finished-at="2021-05-07T14:54:29 MST" duration-ms="1409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestOnSauceLabs@65b3f4a4]" started-at="2021-05-07T14:54:29 MST" name="tearDown" finished-at="2021-05-07T14:54:29 MST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestOnSauceLabs -->
+    </test> <!-- Win10-FF-Test -->
+    <test started-at="2021-05-07T14:54:29 MST" name="Win10-CH-Test" finished-at="2021-05-07T14:54:35 MST" duration-ms="6433">
+      <class name="testcases.TestOnSauceLabs">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestOnSauceLabs@4ef37659]" started-at="2021-05-07T14:54:29 MST" name="setUp" finished-at="2021-05-07T14:54:34 MST" duration-ms="4807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTitle()[pri:0, instance:testcases.TestOnSauceLabs@4ef37659]" started-at="2021-05-07T14:54:34 MST" name="testTitle" finished-at="2021-05-07T14:54:35 MST" duration-ms="1349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestOnSauceLabs@4ef37659]" started-at="2021-05-07T14:54:35 MST" name="tearDown" finished-at="2021-05-07T14:54:35 MST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestOnSauceLabs -->
+    </test> <!-- Win10-CH-Test -->
+  </suite> <!-- Suite -->
+</testng-results>

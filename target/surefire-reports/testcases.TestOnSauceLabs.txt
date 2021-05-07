@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: testcases.TestOnSauceLabs
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.349 s <<< FAILURE! - in testcases.TestOnSauceLabs
+setUp(testcases.TestOnSauceLabs)  Time elapsed: 0.195 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+
+
